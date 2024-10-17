@@ -1,0 +1,16 @@
+table,td {
+    border-style:groove;
+    border-left:10px capacity solid !important;
+}
+.section1{
+    border-color: black;
+    border-style: solid;
+    max-width:240px;
+}
+.section1 button {
+    display: flex !important;
+}
+body{
+    
+    display: flex;
+}

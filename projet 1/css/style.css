@@ -1,0 +1,105 @@
+.bulle1 {
+    border-style: solid;
+    border-width:none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(120, 106, 106);
+    margin-left: auto;
+    margin-right:50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    
+    
+}
+img{
+    
+    width: 50px ;
+    height: 50px ;
+    display: block;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+.profil_card {  
+    display: flex;               /* Utilise flexbox pour le conteneur */  
+    align-items: center;        /* Aligne les éléments verticalement au centre */  
+}  
+
+.profil_card img {  
+    margin-right: 15px;        /* Espace entre l'image et les autres éléments */  
+    border-radius: 50%;        /* Rend l'image ronde, si souhaité */  
+    width: 50px;               /* Largeur de l'image */  
+    height: 50px;              /* Hauteur de l'image */  
+}  
+
+.profil_card h3, .profil_card p {  
+    margin: 0;                 /* Enlève les marges par défaut */  
+} 
+.bulle2{
+    display: block;
+    border-style: solid;
+    border-radius: 10px; 
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right:1%
+    
+
+
+}
+.prfil_card2 {  
+    display: flex;            /* Utiliser Flexbox */  
+    align-items: center;     /* Aligner les éléments verticalement au centre */  
+  
+}  
+
+.prfil_card2 img {  
+    margin-right: 15px;        /* Espace entre l'image et les autres éléments */  
+    border-radius: 50%;        /* Rend l'image ronde, si souhaité */  
+    width: 50px;               /* Largeur de l'image */  
+    height: 50px;     
+}
+.prfil_card2 h3, .prfil_card2 p {  
+    margin: 0;                 /* Enlève les marges par défaut */  
+} 
+.flex-container .bulle1, .flex-container .bulle2, .flex-container .{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+}
+.section2{
+    display: flex;
+}
+
+.detail-profil3{
+    display: block;
+    border-style: solid;
+    border-radius: 10px; 
+    background-color: rgb(28, 26, 26);
+    color: azure;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right:1%;
+    margin-left: 30%;
+}
+.imag3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.section2 img{
+    width: 300px;
+    height: 300px;
+    border-radius:20px;
+    
+    margin-right:1px;
+    display: block;
+    padding-left:auto;
+    padding: right 500px;;
+}

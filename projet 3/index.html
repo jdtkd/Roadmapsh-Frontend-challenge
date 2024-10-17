@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formualaire de controle</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="name">Nom complet</label>
+                <input type="text" id="Nom-complet" name="Nom-complet" placeholder="Quel est votre nom complet" required>
+
+
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+                
+            </div>
+            <div class="form-group">
+                <label for="adresse">Adresse</label>
+                <input type="text" id="adresse" name="adresse" placeholder="Votre adresse" required>
+                
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" placeholder="Choisissez un mot de passe" required>
+                
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirmez votre mot de passe</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmez votre mot de passe" required>
+            </div>
+            <button type="submit">
+                Envoyer le formulaire 
+                    <span class="spinner"></span>
+    
+            </button>
+            <div class="progress-container">
+                <div class="progress-bar">
+                  <div class="progress"></div>
+                </div>
+                <span class="progress-percentage">65%</span>
+              </div>
+      
+              <div class="form-footer">
+                <ul class="checklist">
+                  <li>Creation de comptes utilisateurs</li>
+                  <li>Roadmap Progression</li>
+                  <li>Mise a jour du profil</li>
+                  <li class="incomplete">Complete notre 1er projet</li>
+                  <li class="incomplete">Inviter des amis au projet</li>
+                </ul>
+              </div>
+
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

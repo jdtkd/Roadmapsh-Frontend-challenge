@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container__grid_items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3, 1fr);
+    gap: 1rem;
+    width: 50dvw;
+    height: 90vh;
+    max-width: 1440px;
+    grid-template-areas:
+    "falaise repas villa"
+    "falaise porte villa"
+    "salon porte plage"
+
+    ;
+
+    padding: 1rem;
+}
+.falaise{grid-area: falaise;}
+.repas{grid-area: repas;}
+.villa{grid-area: villa;}
+.porte{grid-area:porte;}
+.salon{grid-area:salon;}
+.plage{grid-area:plage}
+
+@media screen and (width<= 890px){
+    .container__grid_items{
+        width: 90vw;
+        height: 60vh;
+    }
+}
+@media screen and (width<= 500px){
+    .container__grid_items{
+        width: 90dvw;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "falaise"
+        "villa"
+        "porte"
+        "salon"
+        "repas"
+        "plage"
+        ;
+    }
+}
